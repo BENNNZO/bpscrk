@@ -35,15 +35,15 @@ def generate_leet_combinations(word, leets=True, cases=True):
 
     # Leet replacements (numbers and symbols)
     leet_mapping = {
-        'a': ['4', '@'],
+        'a': ['@'],
         'b': ['8'],
         'e': ['3'],
-        'g': ['6', '9'],
+        'g': ['6'],
         'i': ['1', '!', '|'],
         'l': ['1', '!', '|'],
         'o': ['0'],
         's': ['5', '$'],
-        't': ['7', '+'],
+        't': ['7'],
         'z': ['2'],
     }
 
